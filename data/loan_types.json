@@ -1,0 +1,14 @@
+[
+    {
+        "id": "67f290e721ce7",
+        "name": "Agriculture ",
+        "interest": "3",
+        "term_months": "12"
+    },
+    {
+        "id": "68014240f0d4d",
+        "name": "Gold",
+        "interest": "1.25",
+        "term_months": "25"
+    }
+]

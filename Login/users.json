@@ -1,0 +1,46 @@
+{
+    "users": [
+        {
+            "username": "9442",
+            "password": "$2y$10$7DnVHf68Dm0r5n0EOtGSOeupRoBlDGZJ6gFBhGSoVm17FZqMsRbhi",
+            "profile_picture": "uploads\/default-profile.png",
+            "role": "user",
+            "last_active": 1745084229
+        },
+        {
+            "username": "0ffice123",
+            "password": "$2y$10$wOaPvqrGJF3ECB\/j\/TK58.7rwioO1fv6ezr58mALu92GeT.2uC\/My",
+            "profile_picture": "uploads\/default-profile.png",
+            "role": "officer",
+            "last_active": 1745079081
+        },
+        {
+            "username": "ADMIN",
+            "password": "$2y$10$yN3H.IRhgdurjqpcn\/T8iuawwwdQbgUggBVImBZfDiTrrcI7a1Kem",
+            "profile_picture": "uploads\/default-profile.png",
+            "role": "admin",
+            "last_active": 1745080295
+        },
+        {
+            "username": "admin@gmail.com",
+            "password": "$2y$10$QTS\/IKCWvKMl0g.nJBwywuiCKs0p22XnTWLDfZjNGTPYSOvKw\/lme",
+            "profile_picture": "uploads\/default-profile.png",
+            "role": "admin",
+            "last_active": 1745080686
+        },
+        {
+            "username": "admin",
+            "password": "$2y$10$6sQupg71PfsbNL1Outo4w.EwjmD\/2QjFpPL0CutxKorQ6.pBEfmHK",
+            "profile_picture": "uploads\/default-profile.png",
+            "role": "admin",
+            "last_active": 1745083851
+        },
+        {
+            "username": "officer",
+            "password": "$2y$10$7g2nOrckd6XB8upu0YwLceBvW.z1DgLuT9QBCO4LN7UzRn2eY0Q0u",
+            "profile_picture": "uploads\/default-profile.png",
+            "role": "officer",
+            "last_active": 1745080835
+        }
+    ]
+}

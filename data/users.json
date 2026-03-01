@@ -1,0 +1,23 @@
+[
+    {
+        "username": "admin@gmail.com",
+        "password": "$2y$10$QTS\/IKCWvKMl0g.nJBwywuiCKs0p22XnTWLDfZjNGTPYSOvKw\/lme",
+        "role": "admin",
+        "profile_picture": "uploads\/default-profile.png",
+        "last_active": 1745080387
+    },
+    {
+        "username": "admin",
+        "password": "12345678",
+        "role": "admin",
+        "profile_picture": "uploads\/default-profile.png",
+        "last_active": 1745081349
+    },
+    {
+        "username": "officer",
+        "password": "$2y$10$GwHL3iKJHlQtzwT7OuujDeRMTL4rNubDh.RwUXmtzWJtrHSeED0LO",
+        "role": "officer",
+        "profile_picture": "uploads\/default-profile.png",
+        "last_active": 1745081640
+    }
+]

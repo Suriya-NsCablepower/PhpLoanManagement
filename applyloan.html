@@ -1,0 +1,48 @@
+<?php
+session_start();
+if (
+    !isset($_SESSION['role']) || 
+    !in_array($_SESSION['role'], ['admin', 'user', 'officer'])
+) {
+    die("Access denied.");
+}
+
+// Define read_json function directly here
+function read_json($filePath) {
+    if (!file_exists($filePath)) {
+        return [];
+    }
+    $json = file_get_contents($filePath);
+    return json_decode($json, true) ?? [];
+}
+
+$loanTypes = read_json('data/loan_types.json');
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Apply for a Loan</title>
+</head>
+<body>
+
+    <h2>Loan Application Form</h2>
+
+    <form method="POST" action="apply-loan.php">
+        <label for="loan_type_id">Loan Type:</label><br>
+        <select name="loan_type_id" required>
+            <?php foreach ($loanTypes as $type): ?>
+                <option value="<?= htmlspecialchars($type['id']) ?>">
+                    <?= htmlspecialchars($type['name']) ?> (<?= htmlspecialchars($type['interest']) ?>%)
+                </option>
+            <?php endforeach; ?>
+        </select><br><br>
+
+        <label for="amount">Amount:</label><br>
+        <input type="number" name="amount" id="amount" required placeholder="Amount" min="1" step="0.01"><br><br>
+
+        <button type="submit">Apply</button>
+    </form>
+
+</body>
+</html>

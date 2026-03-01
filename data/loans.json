@@ -1,0 +1,52 @@
+[
+    {
+        "id": "68009e1e6c5ac",
+        "username": "9442",
+        "loan_type_id": "Agriculture ",
+        "amount": "100",
+        "status": "approved",
+        "submitted_at": "2025-04-17 08:22:22",
+        "reviewed_by": null,
+        "reviewed_at": "2025-04-17 08:24:17"
+    },
+    {
+        "id": "6801427cdced5",
+        "username": "9442",
+        "loan_type_id": "Gold",
+        "amount": "2500",
+        "status": "approved",
+        "submitted_at": "2025-04-17 20:03:40",
+        "reviewed_by": null,
+        "reviewed_at": "2025-04-17 20:04:06"
+    },
+    {
+        "id": "68014450b8ed9",
+        "username": "94423",
+        "loan_type_id": "Agriculture ",
+        "amount": "2500",
+        "status": "rejected",
+        "submitted_at": "2025-04-17 21:11:28",
+        "reviewed_by": null,
+        "reviewed_at": "2025-04-17 21:11:38"
+    },
+    {
+        "id": "68014e09624ec",
+        "username": "9442",
+        "loan_type_id": "Agriculture ",
+        "amount": "23456",
+        "status": "rejected",
+        "submitted_at": "2025-04-17 21:52:57",
+        "reviewed_by": null,
+        "reviewed_at": "2025-04-19 19:11:44"
+    },
+    {
+        "id": "6803d9e7300e1",
+        "username": "9442",
+        "loan_type_id": "Agriculture ",
+        "amount": "30000",
+        "status": "approved",
+        "submitted_at": "2025-04-19 20:14:15",
+        "reviewed_by": null,
+        "reviewed_at": "2025-04-19 20:18:55"
+    }
+]
